@@ -1,0 +1,21 @@
+{
+    "daily": {
+        "TotalOrder": 100,
+        "ActiveOrder": 90,
+        "UnproductiveOrder": 9,
+        "HoldOrder": 1
+    },
+    "mtd": {
+        "TotalSales": 90,
+        "SalesContribution": "90%"
+    },
+    "topFood": [
+      { "Group": "ABCD", "GroupDesc": "ini grup ABCD", "TotalSales": 50 },
+      { "Group": "DEFG", "GroupDesc": "ini grup DEFG", "TotalSales": 30 },
+      { "Group": "HIJK", "GroupDesc": "ini grup HIJK", "TotalSales": 10 }
+    ],
+    "topOther": [
+        { "Customer": "CUST001", "CustName": "Toko Sebelah", "TotalSales": 40 },
+        { "Customer": "CUST002", "CustName": "Toko Seberang", "TotalSales": 30 }
+      ]
+}
