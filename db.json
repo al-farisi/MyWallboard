@@ -1,21 +1,97 @@
 {
-    "daily": {
-        "TotalOrder": 110,
-        "ActiveOrder": 100,
-        "UnproductiveOrder": 9,
-        "HoldOrder": 1
-    },
-    "mtd": {
-        "TotalSales": 90,
-        "SalesContribution": "90%"
-    },
-    "topFood": [
-      { "Group": "ABCD", "GroupDesc": "ini grup ABCD", "TotalSales": 50 },
-      { "Group": "DEFG", "GroupDesc": "ini grup DEFG", "TotalSales": 30 },
-      { "Group": "HIJK", "GroupDesc": "ini grup HIJK", "TotalSales": 10 }
-    ],
-    "topOther": [
-        { "Customer": "CUST001", "CustName": "Toko Sebelah", "TotalSales": 40 },
-        { "Customer": "CUST002", "CustName": "Toko Seberang", "TotalSales": 30 }
-      ]
+	"daily": {
+		"POTotal": 0,
+		"POStatus_Act": 0,
+		"POStatus_Unp": 0,
+		"OrderCCAI_PO": 0,
+		"OrderCCAI_UC": 0,
+		"POMarket_FS": 0,
+		"POMarket_MIC": 0,
+		"POMarket_GT": 0,
+		"UCQtyStatus_Act": 0.0,
+		"UCQtyStatus_Unp": 0.0,
+		"NCCContribution_Percent": 0.0
+	},
+	"mtd": {
+		"POSalesTotal": 3,
+		"UCQtySales": 0,
+		"UCQtyTotalCCAI": 0.0,
+		"POSales_FS": 1,
+		"POSales_MIC": 0,
+		"POSales_GT": 2,
+		"QtySales_FS_Percent": 1.26089978,
+		"QtySales_MICPercent": 0.0,
+		"QtySales_GT_Percent": 4.07216454,
+		"NCCContribution_Percent": 0.0,
+		"DataAsOfDate": "2019-10-25T23:57:32.23+00:00"
+	},
+	"topFood": [{
+			"Code": "D0499",
+			"Name": "MATAHARI",
+			"QtyNCC": 341,
+			"QtyOther": 44.72
+		},
+		{
+			"Code": "D8802",
+			"Name": "DEPOT SUMATERA GROUP",
+			"QtyNCC": 0,
+			"QtyOther": 90.666
+		},
+		{
+			"Code": "D1219",
+			"Name": "ALFA MINIMART",
+			"QtyNCC": 0,
+			"QtyOther": 234.585
+		}
+	],
+	"topMIC": [{
+			"Code": "D0005",
+			"Name": "DUMMY GROUP 5",
+			"QtyNCC": 500,
+			"QtyOther": 50
+		},
+		{
+			"Code": "D0004",
+			"Name": "DUMMY GROUP 4",
+			"QtyNCC": 400,
+			"QtyOther": 40
+		},
+		{
+			"Code": "D0003",
+			"Name": "DUMMY GROUP 3",
+			"QtyNCC": 300,
+			"QtyOther": 30
+		},
+		{
+			"Code": "D0002",
+			"Name": "DUMMY GROUP 2",
+			"QtyNCC": 200,
+			"QtyOther": 20
+		},
+		{
+			"Code": "D0001",
+			"Name": "DUMMY GROUP 1",
+			"QtyNCC": 100,
+			"QtyOther": 10
+		}
+	],
+	"topGT": [{
+			"Code": "5730588",
+			"Name": "WARKOP CAK IRUL",
+			"QtyNCC": 331,
+			"QtyOther": 670.799
+		},
+		{
+			"Code": "7809674",
+			"Name": "JAYA BARU",
+			"QtyNCC": 107,
+			"QtyOther": 0.0
+		},
+		{
+			"Code": "1015927",
+			"Name": "WARUNG TEGAL",
+			"QtyNCC": 0,
+			"QtyOther": 2.113
+		}
+	]
 }
